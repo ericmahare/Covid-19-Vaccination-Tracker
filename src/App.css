@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&family=Square+Peg&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -11,5 +13,98 @@
 
 body {
   color: #fff;
-  background-color: var(--dark-blue)
+  background-color: var(--dark-blue);
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
 }
+
+/* header section */
+nav {
+  width: 98vw;
+  margin: 0 auto;
+  text-align: center;
+  height: 40px;
+  font-size: 1.1rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+.fa-microphone {
+  margin-right: 1rem;
+}
+
+.hero {
+  height: 20rem;
+  width: 100%;
+  background-color: var(--light-blue);
+  display: flex;
+  padding: 20px;
+  position: relative;
+}
+
+.hero-img {
+  display: block;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero-info {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 0.6rem;
+  text-align: center;
+  z-index: 20;
+}
+
+.fade {
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(87, 136, 228, 0.4);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.countries {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* country */
+.country-card {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.card-text {
+  text-align: right;
+  padding: 1rem;
+}
+
+.country-icon {
+  margin-top: 1rem;
+  width: 100px;
+}
+
+.card-arrow {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 0.8rem;
+}
+
+.country-card:nth-child(4n + 2),
+.country-card:nth-child(4n + 3) {
+  background-color: #2451a5;
+}
+/* end of country */
