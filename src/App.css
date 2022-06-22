@@ -20,7 +20,7 @@ body {
 
 /* header section */
 nav {
-  width: 98vw;
+  width: 97vw;
   margin: 0 auto;
   text-align: center;
   height: 40px;
@@ -54,6 +54,32 @@ nav {
   z-index: -1;
 }
 
+.flag {
+  margin-top: 1rem;
+}
+
+.back {
+  font-weight: bold;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 8px;
+}
+
+@media only screen and (max-width: 760px) {
+  .flag {
+    width: 200px;
+  }
+
+  .hero-img {
+    width: 200px;
+    height: 100%;
+  }
+
+  .hero-info {
+    font-size: 0.4rem;
+  }
+}
+
 .hero-info {
   height: 100%;
   display: flex;
@@ -62,6 +88,13 @@ nav {
   font-size: 0.6rem;
   text-align: center;
   z-index: 20;
+  margin-left: 1.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.hero-info h2:nth-child(1) {
+  font-size: 1.5rem;
 }
 
 .fade {
@@ -81,14 +114,40 @@ nav {
 }
 
 /* country */
+.headline {
+  height: 40px;
+  width: 100%;
+  background-color: #1d4287;
+  text-transform: uppercase;
+  line-height: 40px;
+  padding-left: 2rem;
+}
+
 .country-card {
   position: relative;
   padding-left: 2rem;
+  cursor: pointer;
 }
 
 .card-text {
   text-align: right;
   padding: 1rem;
+}
+
+.country-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.country-details:nth-child(even) {
+  background-color: #2451a5;
+}
+
+.country-details:nth-child(odd) {
+  background-color: #1d4287;
 }
 
 .country-icon {
@@ -101,6 +160,11 @@ nav {
   top: 5%;
   right: 5%;
   font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .country-card:nth-child(4n + 2),
