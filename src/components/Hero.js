@@ -1,15 +1,13 @@
 import React from 'react'
-import map from '../images/africa.svg'
-const Hero = () => {
+const Hero = ({ map, country, vaccinated, total}) => {
   return (
     <div className='hero'>
-      <div className='fade'></div>
       <div className='hero-img-container'>
-        <img src={map} alt='Africa' className='hero-img'/>
+        <img src={map} alt='Africa' className={country ? 'flag' : 'hero-img'}/>
       </div>
       <div className='hero-info'>
-        <h2>Africa Total Vaccination</h2>
-        <h2>23,000</h2>
+        <h2>{country ? country : 'Africa Total Vaccination'}</h2>
+        <h2>{vaccinated ? `(${vaccinated.toLocaleString()}) people vaccinated` : `${total.toLocaleString()} people vaccinated` }</h2>
       </div>
     </div>
   )
