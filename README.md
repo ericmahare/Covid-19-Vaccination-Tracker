@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Covid-19-Vaccination-Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A mobile app that counts the number of people in Africa who have been vaccinated against Covid-19. Data for all countries can be retrieved, as well as other details such as the capital city and the country's life expectancy.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+> [Live Demo](https://covid-19-vaccination-tracker-2022.netlify.app/)
 
-### `npm start`
+## video Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> [Video Demo](https://www.loom.com/share/7bef62edcef14264877a3f831dc3ab6d)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+> <h2 align="center">
+  Demo 📝
+</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+|                                                       **Interface 1**                                                       |
+| :-------------------------------------------------------------------------------------------------------------------------: |
+| ![screenshot](images/home.PNG)
 
-### `npm run build`
+|                                                       **Interface 2**                                                       |
+| :-------------------------------------------------------------------------------------------------------------------------: |
+|  ![screenshot](images/country.PNG)
+> Learning objectives: 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Use React documentation.
+- Use React components.
+- Use React props.
+- Use React Router.
+- Connect React and Redux.
+- Handle events in a React app.
+- Write integration tests with a React testing library.
+- Use styles in a React app.
+- Use React life cycle methods.
+- Apply React best practices and language style guides in code.
+- Use store, actions and reducers in React.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ## Built With
 
-### `npm run eject`
+- React
+- Redux
+- JSX
+- jest 
+- ES6 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get a local copy up and running follow these simple example steps.
+1. Download the `Zip` or `(git clone)[https://github.com/ericmahare/Covid-19-Vaccination-Tracker.git]`
+2. `cd Covid-19-Vaccination-Tracker`
+3. Then open in your browser by using `live server`\
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Install**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- On your terminal run : `npm i`
+- To start the development server : `npm run start`
+- In case you run into any errors please raise an [issue](https://github.com/ericmahare/Covid-19-Vaccination-Tracker/issues).
 
-## Learn More
+## Jest testing
+For testing using jest follow these steps:
+  > npm install
+  `This will download all the dependencies`
+  > npm test 
+  `This will perform all the tests and display the result on the terminal`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Linter errors testing
+For tracking linter errors locally you need to follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- After cloning the project you need to run this command
+  > npm install
+   `This command will download all the dependencies of the project`
 
-### Code Splitting
+- For tracking the linter errors in CSS file run:
+  > npx stylelint "**/*.{css,scss}"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- And For tracking the linter errors in React files run:
+  > npx eslint .
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
+👤 **Eric Mahare**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- GitHub: [@erikmahare](https://github.com/ericmahare) 
+- Twitter: [@erikmahare](https://twitter.com/erikmahare) 
+- LinkedIn: [Eric Mahare](https://www.linkedin.com/in/eric-mahare-358944183/) 
+## 🤝 Contributing
 
-### Advanced Configuration
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Feel free to check the [issues page](../../issues/).
 
-### Deployment
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Give a ⭐️ if you like this project!
 
-### `npm run build` fails to minify
+## Acknowledgments
+- [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) - for the original design
+- [Covid-19 API](https://mmediagroup.fr/covid-19) - for displaying the covid-19 data
+- [Flags API](https://countryflagsapi.com/). - for displaying the flags
+- Hat tip to [Microvers](www.microverse.org)  and all the staff
+- Thanks to My coding Partners 
+- Thanks to My Morning-session-group and Standup-team Partners and
+- Thanks to Code Reviewers
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+                                                                                                                                 

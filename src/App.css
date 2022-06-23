@@ -1,38 +1,175 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto:wght@400;700&family=Square+Peg&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-blue: #5788e4;
+  --dark-blue: #4369b2;
+}
+
+body {
+  color: #fff;
+  background-color: var(--dark-blue);
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+}
+
+/* header section */
+nav {
+  width: 97vw;
+  margin: 0 auto;
   text-align: center;
+  height: 40px;
+  font-size: 1.1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-list {
+  list-style: none;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   align-items: center;
+}
+
+.fa-microphone {
+  margin-right: 1rem;
+}
+
+.hero {
+  height: 20rem;
+  width: 100%;
+  background-color: var(--light-blue);
+  display: flex;
+  padding: 20px;
+  position: relative;
+}
+
+.hero-img {
+  display: block;
+  height: 100%;
+  z-index: -1;
+}
+
+.flag {
+  margin-top: 1rem;
+}
+
+.back {
+  font-weight: bold;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 8px;
+}
+
+@media only screen and (max-width: 760px) {
+  .flag {
+    width: 200px;
+  }
+
+  .hero-img {
+    width: 200px;
+    height: 100%;
+  }
+
+  .hero-info {
+    font-size: 0.4rem;
+  }
+}
+
+.hero-info {
+  height: 100%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  font-size: 0.6rem;
+  text-align: center;
+  z-index: 20;
+  margin-left: 1.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-info h2:nth-child(1) {
+  font-size: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fade {
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(87, 136, 228, 0.4);
+  position: absolute;
+  top: 0;
+  right: 0;
 }
+
+.countries {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* country */
+.headline {
+  height: 40px;
+  width: 100%;
+  background-color: #1d4287;
+  text-transform: uppercase;
+  line-height: 40px;
+  padding-left: 2rem;
+}
+
+.country-card {
+  position: relative;
+  padding-left: 2rem;
+  cursor: pointer;
+}
+
+.card-text {
+  text-align: right;
+  padding: 1rem;
+}
+
+.country-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.country-details:nth-child(even) {
+  background-color: #2451a5;
+}
+
+.country-details:nth-child(odd) {
+  background-color: #1d4287;
+}
+
+.country-icon {
+  margin-top: 1rem;
+  width: 100px;
+}
+
+.card-arrow {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.country-card:nth-child(4n + 2),
+.country-card:nth-child(4n + 3) {
+  background-color: #2451a5;
+}
+
+/* end of country */

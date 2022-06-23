@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<header>
+  <nav>
+    <ul
+      className="nav-list"
+    >
+      <li>
+        <li
+          className="back"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            &lt;
+          </a>
+        </li>
+      </li>
+      <li>
+        Covid-19 Vaccination
+      </li>
+      <li>
+        <i
+          className="fa-solid fa-microphone"
+        />
+        <i
+          className="fa-solid fa-gear"
+        />
+      </li>
+    </ul>
+  </nav>
+  <div
+    className="hero"
+  >
+    <div
+      className="hero-img-container"
+    >
+      <img
+        alt="Africa"
+        className="flag"
+        src="./images/africa.svg"
+      />
+    </div>
+    <div
+      className="hero-info"
+    >
+      <h2>
+        Kenya
+      </h2>
+      <h2>
+        (30,000) people vaccinated
+      </h2>
+    </div>
+  </div>
+</header>
+`;
