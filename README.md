@@ -107,5 +107,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/ericmahare/Covid-19-Vaccination-Tracker/blob/development/LICENSE) licensed.
+This project is [MIT](https://github.com/ericmahare/Covid-19-Vaccination-Tracker/LICENSE.md) licensed.
                                                                                                                                  
