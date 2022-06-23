@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <header>
+    <nav>
+      <ul
+        className="nav-list"
+      >
+        <li>
+          2022
+        </li>
+        <li>
+          Covid-19 Vaccination
+        </li>
+        <li>
+          <i
+            className="fa-solid fa-microphone"
+          />
+          <i
+            className="fa-solid fa-gear"
+          />
+        </li>
+      </ul>
+    </nav>
+    <div
+      className="hero"
+    >
+      <div
+        className="hero-img-container"
+      >
+        <img
+          alt="Africa"
+          className="hero-img"
+          src="africa.svg"
+        />
+      </div>
+      <div
+        className="hero-info"
+      >
+        <h2>
+          Africa Total Vaccination
+        </h2>
+        <h2>
+          0 people vaccinated
+        </h2>
+      </div>
+    </div>
+  </header>,
+  <div
+    className="headline"
+  >
+    <h2>
+      Vaccination by Country
+    </h2>
+  </div>,
+  <section
+    className="countries"
+  />,
+]
+`;

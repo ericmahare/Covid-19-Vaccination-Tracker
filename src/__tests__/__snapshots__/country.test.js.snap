@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders properly 1`] = `
+<div
+  className="country-card"
+>
+  <a
+    href="/Kenya"
+    onClick={[Function]}
+  >
+    <img
+      alt="country-flag"
+      className="country-icon"
+      src="https://countryflagsapi.com/png/KE"
+    />
+    <div
+      className="card-text"
+    >
+      <h2>
+        Kenya
+      </h2>
+      <h2>
+        23,000
+      </h2>
+    </div>
+    <div
+      className="card-arrow"
+    >
+      <p>
+        <i
+          className="fa-solid fa-circle-arrow-right"
+        />
+      </p>
+    </div>
+  </a>
+</div>
+`;

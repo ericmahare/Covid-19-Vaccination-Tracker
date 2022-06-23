@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="hero"
+>
+  <div
+    className="hero-img-container"
+  >
+    <img
+      alt="Africa"
+      className="flag"
+      src="./images/africa.svg"
+    />
+  </div>
+  <div
+    className="hero-info"
+  >
+    <h2>
+      Kenya
+    </h2>
+    <h2>
+      (40,000) people vaccinated
+    </h2>
+  </div>
+</div>
+`;
